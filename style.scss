@@ -1,0 +1,56 @@
+.li-home{
+    background-color: lightgray;
+}
+.li-red{
+    background-color: red;
+}
+.li-orange{
+    background-color: orange;
+}
+.li-purple{
+    background-color: purple;
+}
+.li-green{
+    background-color: green;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: lightgray;
+}
+
+.btn-toggle-nav {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.nav-sidebar {
+    width: 50px;
+    ul{
+        list-style-position: inside;
+        list-style: none;
+        padding: 0px;
+        width: 200px;
+        visibility: hidden;
+    }
+    li{
+        border: 1px solid black;
+        width: 150px;
+        margin: 5px;
+        padding: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: white;
+        }
+    }
+    
+}
+
+
